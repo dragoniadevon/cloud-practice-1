@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="uk">
+<head>
+ <meta charset="UTF-8">
+ <meta name="viewport" content="width=device-width, initial-scale=1.0">
+ <title>My Cloud Application</title>
+ <link rel="preconnect" href="https://fonts.googleapis.com">
+ <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+ <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@600;700&family=EB+Garamond:wght@400;600&display=swap&subset=cyrillic" rel="stylesheet">
+ <link rel="stylesheet" href="style.css">
+</head>
+<body>
+<header class="hero">
+ <div class="moon"></div>
+ <div class="hero-text">
+ <p class="course">Хмарні обчислення і хмарні платформи</p>
+ <h1>Мій перший хмарний застосунок</h1>
+ <p class="lead">Код, викликаний у хмарі, тепер живе в Інтернеті.</p>
+ </div>
+</header>
+
+<main>
+ <section class="pipeline" aria-label="Шлях коду до Інтернету">
+ <div class="step" data-step><b>Codespaces</b><span>пишемо код</span></div>
+ <div class="step" data-step><b>Git</b><span>commit + push</span></div>
+ <div class="step" data-step><b>Actions</b><span>автоматична збірка</span></div>
+ <div class="step" data-step><b>Pages</b><span>сайт онлайн</span></div>
+ </section>
+
+ <section class="card">
+ <h2>Про застосунок</h2>
+ <p>Цей вебзастосунок створено у хмарному середовищі GitHub Codespaces та розгорнуто за допомогою GitHub Pages.</p>
+ </section>
+
+ <section class="card">
+ <h2>Хмарні технології</h2>
+ <ul>
+ <li>GitHub — зберігання програмного коду</li>
+ <li>GitHub Codespaces — хмарне середовище розробки</li>
+ <li>GitHub Pages — розгортання вебзастосунку</li>
+ </ul>
+ </section>
+
+ <section class="card student">
+ <h2>Інформація про студента</h2>
+ <p>Виконала: Вареник Анастасія Дмитрівна</p>
+ <button onclick="showMessage()">Перевірити роботу JavaScript</button>
+ <p id="message"></p>
+ </section>
+
+ <section class="card service">
+ <h2>Хмарний сервіс: Vercel</h2>
+ <p><b>Призначення:</b> платформа для розгортання та хостингу сучасних вебзастосунків із автоматичним деплоєм після кожного push до Git-репозиторію.</p>
+ <p><b>Моделі хмарних послуг:</b> PaaS (платформа для розгортання застосунків); FaaS/serverless (Serverless та Edge Functions).</p>
+ <p><b>Приклади сервісів і функцій:</b> глобальна Edge Network (CDN), Serverless Functions, Preview Deployments для кожної гілки, Vercel Blob та інші сховища даних.</p>
+ <p><b>Офіційний сайт:</b> <a href="https://vercel.com" target="_blank" rel="noopener">vercel.com</a></p>
+ </section>
+
+ <section class="card">
+ <h2>Додатково</h2>
+ <button onclick="showCloudInfo()">Що таке хмарні обчислення?</button>
+ <p id="cloudInfo"></p>
+ </section>
+</main>
+
+<footer>
+ <p>Cloud Computing © 2026</p>
+</footer>
+<script src="script.js"></script>
+</body>
+</html>
