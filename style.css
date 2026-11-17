@@ -60,3 +60,25 @@ button:focus-visible,a:focus-visible{outline:2px solid var(--gold);outline-offse
 footer{text-align:center;padding:22px;border-top:1px solid var(--gold);background:var(--night);color:var(--dim)}
 footer p{margin:0}
 @media (prefers-reduced-motion:reduce){*{animation:none!important;transition:none!important}}
+
+/* Блок "Хмарні сервіси, які використовуються у проєкті" */
+.cloud-services{
+  background:#1d0a14;
+  border:1px solid var(--gold);
+  border-radius:14px;
+  padding:24px 28px;
+  margin:40px 0 26px;
+}
+.cloud-services h2{
+  font-family:"Cormorant Garamond",Georgia,serif;
+  font-weight:700;
+  font-size:2.05rem;
+  margin:0 0 14px;
+  color:var(--crimson);
+}
+.cloud-services p{
+  margin:0 0 12px;
+  color:var(--parch);
+}
+.cloud-services p:last-child{margin-bottom:0}
+.cloud-services strong{color:var(--gold)}
